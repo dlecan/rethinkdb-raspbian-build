@@ -3,4 +3,4 @@
 source config.sh
 
 cd upstream
-rpxc sh -c 'sudo checkinstall'
+rpxc sh -c 'sudo checkinstall -D --install=no  −−nodoc'
